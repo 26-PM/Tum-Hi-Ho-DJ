@@ -8,12 +8,15 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@distube/soundcloud": "^1.4.0",
-    "@distube/spotify": "^1.5.0",
-    "@distube/yt-dlp": "^1.1.5",
+    "@discordjs/voice": "^0.17.0",
+    "@distube/soundcloud": "^2.0.4",
+    "@distube/spotify": "^2.0.2",
+    "@distube/yt-dlp": "^2.0.1",
     "discord.js": "^14.15.3",
     "distube": "^5.0.4",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "libsodium-wrappers": "^0.7.15",
+    "opusscript": "^0.1.1"
   },
   "engines": {
     "node": ">=18.17.0"
