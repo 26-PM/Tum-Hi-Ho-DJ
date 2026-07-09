@@ -1,0 +1,21 @@
+{
+  "name": "discord-music-bot",
+  "version": "1.0.0",
+  "description": "A starter Discord music bot (like Jockie Music) built with discord.js and DisTube",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@distube/soundcloud": "^1.4.0",
+    "@distube/spotify": "^1.5.0",
+    "@distube/yt-dlp": "^1.1.5",
+    "discord.js": "^14.15.3",
+    "distube": "^5.0.4",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}
